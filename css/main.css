@@ -1,0 +1,358 @@
+   @font-face {
+    font-family: Pomp; /* Гарнитура шрифта */
+    src: url(../fonts/fu.ttf); /* Путь к файлу со шрифтом */
+   }
+   @font-face {
+    font-family: Zagolovok; /* Гарнитура шрифта */
+    src: url(../fonts/zagalovok.ttf); /* Путь к файлу со шрифтом */
+   }
+
+body{
+    font-family: Pomp, 'Comic Sans MS', cursive;
+}
+h1{
+    font-family: Zagolovok, 'Comic Sans MS', cursive;
+    font-size: 4em;
+}
+#first-window{
+    background-image: url("../img/header-bg-11.jpg");
+    background-size: cover;
+    background-position: center center;
+    
+
+}
+.zagalovok{
+    padding-top:14em; 
+}
+.zagalovok h2{
+    font-family: Zagolovok, 'Comic Sans MS', cursive;
+    font-size: 1em;
+    
+    
+    
+}
+#first-window .btn{
+   
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 15%;
+    height: 3em;
+    min-width: 150px;
+}
+#mackbook{
+    width: 70%;
+}
+.second-window-one{
+    margin-top: 10em;
+}
+.second-window-one h2 , .three-window h2{
+    margin-top: 1em;
+    font-family: Zagolovok, 'Comic Sans MS', cursive;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+.second-window-one p, .three-window p{
+   font-size: 1em; 
+}
+.second-window-one img{
+    width: 100%;
+}
+.three-window{
+    margin-top: 2.5em;
+    padding-top: 2.5em;
+    background-color: #F5F5F5;
+    padding-bottom: 2.5px;
+    
+}
+.three-window img{
+    width: 70%;
+    transform: scale(-1, 1);
+    
+}
+.four-window{
+    margin-top: 2.5em;
+    padding-top: 2.5em;
+    
+}
+.four-window h2, .five-window h2{
+    font-family: Zagolovok, 'Comic Sans MS', cursive;
+    font-size: 3em;
+    margin-bottom: 2.5em;
+}
+.four-window img {
+    width: 70%;
+    padding-bottom: 1.3em;
+}
+.four-window p {
+     font-family: Zagolovok, 'Comic Sans MS', cursive;
+    font-size: 1.2em;
+    margin-bottom: 2.5em;
+    
+    
+}
+.four-window-span{
+    color: #777;
+    font-size: 0.8em;
+    
+    
+}
+.five-window {
+    background-color: #F5F5F5;
+    padding-bottom: 2.5em;
+    padding-top: 2.5em;
+}
+.five-window img {
+    padding-top: 0.2em;
+    width: 20%;
+     float:left;
+    margin-right: 5%;
+}
+.five-window p {
+    font-family: Zagolovok, 'Comic Sans MS', cursive;
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    
+}
+.five-window button {
+    width: 30%;
+    min-width: 150px;
+    
+}
+.botom_otstup{
+    margin-bottom: 2em;
+}
+.iphone-js img {
+    margin-top: 2.5em;
+    width: 100%;
+}
+.about{
+    font-size: 1.5em;
+}
+
+
+.vj{
+    padding-top: 2em;
+}
+.copy{
+    font-size: 1.2em;
+}
+.contact_p{
+    
+     margin-top: 1em;
+    margin-bottom: 1em;
+    
+
+}
+.pomp{
+    margin:1em 0;
+     font-family: Zagolovok, 'Comic Sans MS', cursive;
+    font-size: 3em;
+}
+#form-six .btn{
+    margin-top: 2em;
+    width: 45%;
+}
+.inp_form {
+    font-size: 1.1em;
+    height: 3em;
+    border-radius: 0px;
+    margin-left: 10%;
+    width: 90%;
+    margin-bottom: 2em;
+}
+#form-input textarea{
+    font-size: 1.1em;
+    height: 7em;
+    border-radius: 0px;
+    margin-left: 10%;
+    width: 90%;
+}
+.inp_buttons{
+    font-size: 1.1em;
+    height: 3em;
+    border-radius: 0px;
+    margin-left: 10%;
+    width: 90%;
+    margin-bottom: 0.6em;
+    min-width: 150px;
+
+}
+.left_window p{
+        font-family: Pomp, 'Comic Sans MS', cursive;
+      
+    margin-left: 5%;
+    font-size: 1.5em; 
+}
+.assign-p{
+    font-family: Zagolovok, 'Comic Sans MS', cursive;
+    font-size: 1.3em;
+    color: #888;
+}
+.left_window a{
+    color: black;
+}
+.foot{
+    margin-top: 1em;
+    background-color:#292b2c;
+}
+.foot p{
+    margin-top: 0.75em;
+    font-size: 1.2em;
+    color: #eee;
+}
+.foot a{
+    color: #eee;
+}
+.soglasie{
+    
+    margin-left: 10%;
+    font-size: 0.7em;
+}
+@media (max-width: 761px) {
+    .four-window h2{
+        font-size: 34px;
+    }
+    .five-window h2{
+       
+        font-size: 34px;
+        margin-bottom: 1em;
+    }
+    .five-window p{
+       
+        font-size: 24px;
+        margin-bottom: 1em;
+    }
+    .five-window img{
+       padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    #form-six h2{
+        font-size: 34px;
+    }
+    .contact p{
+        margin-left: 0;
+        font-size: 20px;
+    }
+    #form-six .assign-p{
+        font-size: 24px;
+    }
+    #form-six img{
+        width: 20px;
+    }
+    .soglasie{
+        margin-top: 0.5em;
+        margin-left: 0;
+        font-size: 14px;
+    }
+    #form-input input, #form-input textarea{
+        margin-left: 0;
+        width: 100%;
+        
+    }
+    .second-window-one{
+    margin-top: 2em;
+}
+    .flex-cont{
+        display: flex;
+    }
+    .flex_one{
+        order: 2;
+    }
+    .flex_two{
+        margin-left: 10%;
+        order: 1;
+    }
+    .four-window img{
+        width: 40%;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .second-window-one{
+        margin-top: 2em;
+    }
+    .flex_two {
+        padding-top: 5em;
+    }
+    .macpro{
+        padding-top: 2em;
+    }
+    .three-window .row {
+        
+        margin-bottom: 2.5em;
+    }
+    .five-window img{
+       padding-top: 0.3em;
+        padding-bottom: 3em;
+    }
+     #form-input input, #form-input textarea{
+        margin-left: 0;
+        width: 100%;
+        
+    }
+     .soglasie{
+        margin-top: 0.5em;
+        margin-left: 0;
+        font-size: 14px;
+    }
+     .contact p{
+        margin-left: 0;
+       font-size: 20px;
+    }
+}
+/*   --------reviews----------------   */
+#rewiews_main{
+    margin-top: 8em;
+    font-size: 10px;
+}
+input{
+    min-width:200px; 
+}
+.modalWindow{
+    width: 50%; 
+	 /* Рaзмеры дoлжны быть фиксирoвaны */
+	border-radius: 5px;
+	border: 3px #999 solid;
+	background: #fff;
+	position: fixed; /* чтoбы oкнo былo в видимoй зoне в любoм месте */
+	top: 25%; /* oтступaем сверху 45%, oстaльные 5% пoдвинет скрипт */
+	left: 25%; /* пoлoвинa экрaнa слевa */
+	z-index: 5; /* oкнo дoлжнo быть нaибoлее бoльшем слoе */
+    padding: 20px 10px;
+    display: none;
+    
+    
+}
+#pClose{
+    color: red;
+    font-size: 30px;
+    position: fixed;
+    z-index: 6;
+    top: 24%; /* oтступaем сверху 45%, oстaльные 5% пoдвинет скрипт */
+	left: 76%;
+    display: none;
+}
+#overlay {
+	z-index:3; /* пoдлoжкa дoлжнa быть выше слoев элементoв сaйтa, нo ниже слoя мoдaльнoгo oкнa */
+	position:fixed; /* всегдa перекрывaет весь сaйт */
+	background-color:#000; /* чернaя */
+	opacity:0.8; /* нo немнoгo прoзрaчнa */
+	-moz-opacity:0.8; /* фикс прозрачности для старых браузеров */
+	filter:alpha(opacity=80);
+	width:100%; 
+	height:100%; /* рaзмерoм вo весь экрaн */
+	top:0; /* сверху и слевa 0, oбязaтельные свoйствa! */
+	left:0;
+	cursor:pointer;
+	display:none; /* в oбычнoм сoстoянии её нет) */
+}
+.textP{
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 22px;
+    padding-bottom: 5px;
+}
+
